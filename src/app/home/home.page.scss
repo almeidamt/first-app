@@ -25,3 +25,38 @@
 #container a {
   text-decoration: none;
 }
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  height: 100%;
+  color: black;
+  font-weight: 800;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: top;
+  color: black;
+  font-weight: 800;
+}
+
+.center-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.center-card {
+  max-width: 400px;
+  width: 100%;
+}
+
+.center-img {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
